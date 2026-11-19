@@ -15,8 +15,8 @@ const PROFILE = {
   photo: "assets/profile.jpg", // 예: "assets/profile.jpg" (비워두면 이니셜 표시)
   bio: [
     "I am an integrated M.S./Ph.D. student in Artificial Intelligence at Yonsei University. " +
-    "My research focuses on the interface between speech and large language models — " +
-    "how speech should be represented for LLMs.",
+    "My research focuses on the interface between speech and large language models, in particular " +
+    "how speech should be represented for LLMs. I am also interested in full-duplex spoken language models.",
   ],
   contact: {
     email: "cotmd@yonsei.ac.kr",
@@ -30,6 +30,7 @@ const PROFILE = {
 const RESEARCH_INTERESTS = [
   "Speech-Language Multimodal Learning",
   "Speech-LLM Interfaces",
+  "Full-Duplex Spoken Language Models",
 ];
 
 // 최신 소식 (최근 것이 위로). 비워두면 섹션 숨김.
@@ -108,19 +109,19 @@ const EDUCATION = [
 const AWARDS = [
   {
     title: "1st Place (out of 623 teams)",
-    detail: "Wallpaper Defect QA – Hansol Deco Generative AI Challenge, Dacon",
+    detail: "Hansol Deco Generative AI Challenge (Wallpaper Defect QA), Dacon",
     year: "2024",
     link: "https://dacon.io/competitions/official/236216/talkboard/411322?page=1&dtype=recent",
   },
   {
     title: "Kaggle Silver Medal",
-    detail: "LLM – Detect AI Generated Text (24th of 4,483 teams, Top 0.54%)",
+    detail: "LLM - Detect AI Generated Text (24th of 4,483 teams, Top 0.54%)",
     year: "",
     link: "https://www.kaggle.com/danielchae/competitions",
   },
   {
     title: "Kaggle Silver Medal",
-    detail: "CommonLit – Evaluate Student Summaries (Top 4%)",
+    detail: "CommonLit - Evaluate Student Summaries (Top 4%)",
     year: "",
     link: "https://www.kaggle.com/danielchae/competitions",
   },
@@ -138,9 +139,9 @@ const AWARDS = [
 //  - links: 값이 있는 것만 버튼으로 표시 (github, demo, video, paper 등 키 자유롭게 추가 가능)
 const PROJECTS = [
   {
-    title: "Onoma AI — Industry Collaboration",
+    title: "Onoma AI (Industry Collaboration)",
     type: "Collaborative Research Project (Onoma AI × Yonsei DeepText Lab)",
-    role: "Research & Development — dataset construction and pipeline design",
+    role: "Research & Development (dataset construction and pipeline design)",
     period: "2024",
     summary: "LLM-based automatic generation of continuous long stories.",
     description:
