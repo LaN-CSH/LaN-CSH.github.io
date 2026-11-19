@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seungho Chae</title>
+  <meta name="description" content="Seungho Chae — Ph.D. student in AI at Yonsei University. Speech generation and speech–LLM interfaces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="wrap nav">
+      <a class="brand" href="#top" id="brand"></a>
+      <ul class="nav-links" id="nav-links"></ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">◐</button>
+    </nav>
+  </header>
+
+  <main class="wrap" id="top">
+    <section class="hero">
+      <div class="avatar" id="avatar"></div>
+      <div>
+        <h1 id="name"></h1>
+        <p class="subtitle" id="title"></p>
+        <div class="bio" id="bio"></div>
+        <div class="contact" id="contact"></div>
+      </div>
+    </section>
+
+    <section id="interests" class="section">
+      <h2>Research Interests</h2>
+      <ul class="chips" id="interests-list"></ul>
+    </section>
+
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news" id="news-list"></ul>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <ol class="pubs" id="pubs-list"></ol>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Research Experience</h2>
+      <div class="timeline" id="exp-list"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="timeline" id="projects-list"></div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="timeline" id="edu-list"></div>
+    </section>
+
+    <section id="awards" class="section">
+      <h2>Awards</h2>
+      <ul class="awards" id="awards-list"></ul>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <dl class="skills" id="skills-list"></dl>
+    </section>
+  </main>
+
+  <footer class="wrap footer" id="footer"></footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
