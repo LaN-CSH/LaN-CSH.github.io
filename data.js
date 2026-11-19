@@ -16,7 +16,7 @@ const PROFILE = {
   bio: [
     "I am an integrated M.S./Ph.D. student in Artificial Intelligence at Yonsei University. " +
     "My research focuses on speech generation and on the interface between speech and large language models — " +
-    "how speech should be represented for LLMs, and how generated outputs can be verified and repaired at inference time.",
+    "how speech should be represented for LLMs.",
   ],
   contact: {
     email: "cotmd@yonsei.ac.kr",
