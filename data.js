@@ -15,7 +15,7 @@ const PROFILE = {
   photo: "assets/profile.jpg", // 예: "assets/profile.jpg" (비워두면 이니셜 표시)
   bio: [
     "I am an integrated M.S./Ph.D. student in Artificial Intelligence at Yonsei University. " +
-    "My research focuses on speech generation and on the interface between speech and large language models — " +
+    "My research focuses on the interface between speech and large language models — " +
     "how speech should be represented for LLMs.",
   ],
   contact: {
